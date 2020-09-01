@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tutorials",
+  "info": {
+    "name": "Уроки"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Безымянный",
+      "required": true,
+      "unique": true
+    },
+    "practice": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tutorial-component.task-collection"
+    },
+    "theory": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tutorial-component.theory"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}

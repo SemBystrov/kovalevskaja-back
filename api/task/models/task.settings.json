@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks",
+  "info": {
+    "name": "Задачи"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "condition": {
+      "type": "text",
+      "default": "условие задачи не задано",
+      "required": true,
+      "unique": false
+    },
+    "solution": {
+      "type": "richtext",
+      "required": true
+    },
+    "answer": {
+      "type": "string",
+      "default": "нет ответа",
+      "required": true,
+      "unique": false
+    }
+  }
+}

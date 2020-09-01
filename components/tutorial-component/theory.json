@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_tutorial_component_theories",
+  "info": {
+    "name": "Theory",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

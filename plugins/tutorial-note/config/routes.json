@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/success",
+      "handler": "tutorial-note.getAllUserSuccess",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/success/:tutorial",
+      "handler": "tutorial-note.getUserSuccess",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/note/:tutorial",
+      "handler": "tutorial-note.getUserNote",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/note/:tutorial",
+      "handler": "tutorial-note.deleteUserNote",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/note/:tutorial",
+      "handler": "tutorial-note.saveUserNote",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/success/:tutorial",
+      "handler": "tutorial-note.saveUserSuccess",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

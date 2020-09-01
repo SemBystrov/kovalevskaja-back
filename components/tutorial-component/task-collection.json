@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_tutorial_component_task_collections",
+  "info": {
+    "name": "taskCollection",
+    "icon": "clipboard-list"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string",
+      "default": "---"
+    },
+    "tasks": {
+      "collection": "task"
+    }
+  }
+}

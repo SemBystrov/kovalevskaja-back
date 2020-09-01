@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_component_tutorial_orders",
+  "info": {
+    "name": "TutorialOrder",
+    "icon": "list-ol"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "model": "tutorial"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

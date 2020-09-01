@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_successes",
+  "info": {
+    "name": "Успех освоения"
+  },
+  "options": {
+    "timestamps": false,
+    "increments": false,
+    "comment": ""
+  },
+  "attributes": {
+    "tutorial": {
+      "model": "tutorial"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "rating": {
+      "type": "integer",
+      "max": 3,
+      "min": -1
+    }
+  }
+}

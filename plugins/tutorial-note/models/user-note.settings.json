@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_notes",
+  "info": {
+    "name": "Заметки пользователя"
+  },
+  "options": {
+    "timestamps": false,
+    "increments": false,
+    "comment": ""
+  },
+  "attributes": {
+    "tutorial": {
+      "model": "tutorial"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
