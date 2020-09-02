@@ -2,7 +2,7 @@ module.exports = {
   //...
   settings: {
     cors: {
-      origin: '*',
+      enabled: false
     },
   },
 };
