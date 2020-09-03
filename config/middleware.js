@@ -2,7 +2,7 @@ module.exports = {
   //...
   settings: {
     cors: {
-      enabled: false
-    },
-  },
+      origin: ['https://school-bag.onrender.com']
+    }
+  }
 };
