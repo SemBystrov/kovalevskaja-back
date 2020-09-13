@@ -1,8 +1,8 @@
-module.exports = {
+module.exports = ({ env }) => ({
   //...
   settings: {
     cors: {
-      origin: ['https://school-bag.onrender.com']
+      origin: env.array('CORS_ORIGIN')
     }
   }
-};
+});
