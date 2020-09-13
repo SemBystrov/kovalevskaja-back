@@ -10,8 +10,7 @@
   },
   "attributes": {
     "condition": {
-      "type": "text",
-      "default": "условие задачи не задано",
+      "type": "richtext",
       "required": true,
       "unique": false
     },
